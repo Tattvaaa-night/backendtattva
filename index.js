@@ -6,7 +6,8 @@ const port = 4000
 const someData = {
     "name": "John",
     "age": 30,
-    "city": "New York"
+    "city": "New York",
+    "hobbies": ["reading", "traveling", "swimming"]
 }
 
 app.get('/', (req, res) => {
